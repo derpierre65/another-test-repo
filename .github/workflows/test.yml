@@ -5,4 +5,4 @@ on:
 
 jobs:
   build:
-    uses: Bread-Ch4n/FRM-s-WebUI-Source/.github/workflows/build.yml@main
+    uses: Bread-Ch4n/FRM-s-WebUI-Source/.github/workflows/build.yml@d63f9b7d03d06a2c5a5151f82feead27836ab988
