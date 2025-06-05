@@ -1,0 +1,8 @@
+name: Build WebUI
+
+on:
+  workflow_dispatch:
+
+jobs:
+  call-workflow-1-in-local-repo:
+    uses: Bread-Ch4n/FRM-s-WebUI-Source/.github/workflows/build.yml@main
