@@ -5,10 +5,4 @@ on:
 
 jobs:
   build:
-    runs-on: ubuntu-latest
-    steps:
-      - name: checkout
-        uses: actions/checkout@v3
-        with:
-          repository: Bread-Ch4n/FRM-s-WebUI-Source
-      - uses: Bread-Ch4n/FRM-s-WebUI-Source/.github/workflows/build.yml@main
+    uses: Bread-Ch4n/FRM-s-WebUI-Source/.github/workflows/build.yml@main
